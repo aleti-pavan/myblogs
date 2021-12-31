@@ -66,7 +66,9 @@ gcloud compute --project=$PROJECT_ID firewall-rules create public-allow-ssh-fw-r
 gcloud beta compute ssh --zone "europe-west2-c" "instance-1"  --project $PROJECT_ID
 ```
 
-Above command should take you into the virtual machine. Now use command `gcloud config list` which shows you the service account created part of this tutorial. Which confirms VM runs as service account identity.
+Above command should take you into the virtual machine. 
+
+__Note:__ Now use command `gcloud config list` which shows you the service account created part of this tutorial. Which confirms VM runs as service account identity.
 
 
 
