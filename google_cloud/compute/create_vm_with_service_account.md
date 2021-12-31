@@ -68,7 +68,8 @@ gcloud beta compute ssh --zone "europe-west2-c" "instance-1"  --project $PROJECT
 
 Above command should take you into the virtual machine. 
 
-__###Note:__ Now use command `gcloud config list` which shows you the service account created part of this tutorial. Which confirms VM runs as service account identity.
+### __Note:__ 
+Now use command `gcloud config list` which shows you the service account created part of this tutorial. Which confirms VM runs as service account identity.
 
 
 
