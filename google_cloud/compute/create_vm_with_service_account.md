@@ -3,7 +3,9 @@ perform the tutorial
 
 # Prerequisites
 
-1. [Install & Configure gcloud cli](https://cloud.google.com/sdk/docs/install)
+1. [Create a Google Cloud Account](https://cloud.google.com/apigee/docs/hybrid/v1.1/precog-gcpaccount)
+2. [Create a Google Cloud Porject](https://cloud.google.com/apigee/docs/hybrid/v1.1/precog-gcpproject)
+3. [Install & Configure gcloud cli](https://cloud.google.com/sdk/docs/install)
 
 
 ## Steps
@@ -20,6 +22,7 @@ perform the tutorial
 9. Verify virtual machine identity with 'gcloud config list'
 ```
 
+# Login
 
 ###### Login to your google cloud console.
 `gcloud auth login`
@@ -31,6 +34,9 @@ perform the tutorial
 
 ###### If you want to set the project
 `gcloud config set project $PROJECT_ID`
+
+
+# Steps - Execution
 
 ```
 # Create a VPC
