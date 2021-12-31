@@ -16,10 +16,10 @@ perform the tutorial
 6. Create virtual machine
 7. Create firewall rule to access virtual machine.
 8. SSH into virtual machine.
-9. Verify virtual machine identity with `gcloud config list`
+9. Verify virtual machine identity with __gcloud config list__
 ```
 
-
+`
 # Login to your google cloud console.
 gcloud auth login
 `
