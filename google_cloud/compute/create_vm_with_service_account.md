@@ -7,7 +7,7 @@ perform the tutorial
 
 
 ## Steps
-
+```
 1. Create VPC 
 2. Create subnet-1
 3. Create subnet-2 with private google access enabled.
@@ -17,7 +17,7 @@ perform the tutorial
 7. Create firewall rule to access virtual machine.
 8. SSH into virtual machine.
 9. Verify virtual machine identity with `gcloud config list`
-
+```
 
 
 # Login to your google cloud console.
