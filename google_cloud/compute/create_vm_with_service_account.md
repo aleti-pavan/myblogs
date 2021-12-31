@@ -20,11 +20,11 @@ perform the tutorial
 9. Verify virtual machine identity with 'gcloud config list'
 ```
 
-`
-# Login to your google cloud console.
-gcloud auth login
 
-`
+#### Login to your google cloud console.
+`gcloud auth login`
+
+
 
 `
 # You can list the active account name with this command
