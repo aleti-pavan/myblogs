@@ -3,7 +3,7 @@ perform the tutorial
 
 # Prerequisites
 
-1. Install & Configure [gcloud cli](https://cloud.google.com/sdk/docs/install)
+1. [Install & Configure gcloud cli](https://cloud.google.com/sdk/docs/install)
 
 
 ## Steps
