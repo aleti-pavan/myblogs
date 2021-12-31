@@ -6,6 +6,8 @@ perform the tutorial
 1. Install & Configure [gcloud cli](https://cloud.google.com/sdk/docs/install)
 
 
+## Steps
+
 1. Create VPC 
 2. Create subnet-1
 3. Create subnet-2 with private google access enabled.
@@ -24,7 +26,7 @@ gcloud auth login
 # You can list the active account name with this command
 gcloud auth list
 
-PROJECT_ID=root-gist-336210
+PROJECT_ID=<your-project-id>
 
 # If you want to set the project
 gcloud config set project $PROJECT_ID

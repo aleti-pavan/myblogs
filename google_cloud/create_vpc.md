@@ -9,12 +9,6 @@ perform the tutorial
 1. Create VPC 
 2. Create subnet-1
 3. Create subnet-2 with private google access enabled.
-4. Create service account
-5. Add compute admin role to service account
-6. Create virtual machine
-7. Create firewall rule to access virtual machine.
-8. SSH into virtual machine.
-9. Verify virtual machine identity with `gcloud config list`
 
 
 
@@ -24,7 +18,7 @@ gcloud auth login
 # You can list the active account name with this command
 gcloud auth list
 
-PROJECT_ID=root-gist-336210
+PROJECT_ID=<your-project-id>
 
 # If you want to set the project
 gcloud config set project $PROJECT_ID
