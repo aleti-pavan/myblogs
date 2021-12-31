@@ -7,6 +7,7 @@ perform the tutorial
 
 
 ## Steps
+
 ```
 1. Create VPC 
 2. Create subnet-1
